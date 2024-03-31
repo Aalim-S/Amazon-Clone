@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amajon Clone Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="amajon.css">
+  <script src="shopBoxObject.js" defer></script>
+  <script src="slideRowObjectData.js" defer></script>
+  <script src="scootyRowSlideObjectData.js" defer></script>
+  <script src="booksRowSlideObjectData.js" defer></script>
+  <script src="newArrivalsRowSlideObjectData.js" defer></script>
+  <script src="footerRowSlideDataObject.js" defer></script>
+  <script src="amajon.js" defer></script>
+</head>
+<body>
+
+  <!-- amajon header section -->
+  <header>
+    <!-- amazon top header section -->
+    <section class="amajon-search">
+      <img src="images/amajon-logo.jpg" alt="amajon logo">
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="location-name">
+          <p>Delivering to Mysore 570016</p>
+          <p>Update location</p>
+        </div>
+      </div>
+      <div class="amajon-search-input">
+        <div class="search-input">
+          <div class="all">
+            <p>All</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <input type="text" placeholder="Search Amajon.in">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="en-to-cart">
+        <div class="in-flag">
+          <img src="images/indian-flag.png" alt="Indian Flag">
+          <p>EN</p>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="account-list">
+          <div class="sign-in">
+            <p>Hello, sign in</p>
+            <p>Account & Lists</p>
+          </div>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="return-order">
+          <p>Returns</p>
+          <p>& Orders</p>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>Cart</p>
+        </div>
+      </div>
+    </section>
+    <!-- amajon hoverboxes section -->
+    <section class="amajon-hoverboxes">
+      <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+        <p>All</p>
+      </div>
+      <p id="fresh">Fresh</p>
+      <p>Amajon miniTV</p>
+      <p>Sell</p>
+      <p>Best Sellers</p>
+      <p>Mobiles</p>
+      <p>Today's Deals</p>
+      <p>Electronics</p>
+      <div class="prime">
+        <p>Prime</p>
+        <i class="fa-solid fa-caret-down"></i>
+      </div>
+      <p>Customer Service</p>
+      <p>New Releases</p>
+      <p>Home & Kitchen</p>
+      <p>Gift Ideas</p>
+      <p>New Lauches from Mobiles,Electronics & more | Shop now</p>
+    </section>
+  </header>
+
+  <!-- amazon main or hero section -->
+  <main>
+    <div class="img-container">
+      <i class="fa-solid fa-chevron-left" id="left"></i>
+      <div class="slideshow">
+        <img src="Images/amajon-slideimg1.jpg" class="images">
+        <img src="Images/amajon-slideimg2.jpg" class="images">
+        <img src="Images/amajon-slideimg3.jpg" class="images">
+        <img src="Images/amajon-slideimg4.jpg" class="images">
+        <img src="Images/amajon-slideimg5.jpg" class="images">
+        <img src="Images/amajon-slideimg6.jpg" class="images">
+        <img src="Images/amajon-slideimg7.jpg" class="images">
+        <img src="Images/amajon-slideimg8.jpg" class="images">
+      </div>
+      <i class="fa-solid fa-chevron-right" id="right"></i>
+    </div>
+    <div class="shopping-box-container">
+     <!-- shopping boxes -->
+    </div>
+    <div class="row-box">
+      <div class="row-box-title">
+        <p>Today's Deals</p>
+        <a href="#">See all deals</a>
+      </div>
+      <div class="slidshow">
+        <!-- shopping sliderow goes here  -->
+      </div>
+    </div>
+    <div class="row-box-scooty">
+      <div class="row-box-title scooty-box-title">
+        <p>EMI starting at ₹100/day | Electric scooters & motorbike</p>
+        <a href="#">See all offers</a>
+      </div>
+      <div class="slidshow scooty-row">
+        <!-- scooty sliderow goes here  -->
+      </div>
+    </div>
+    <div class="row-box-scooty">
+      <div class="row-box-title scooty-box-title">
+        <p>Best Sellers in Books</p>
+        <a href="#"></a>
+      </div>
+      <div class="slidshow scooty-row books-row">
+        <!-- books sliderow goes here  -->
+      </div>
+    </div>
+    <div class="row-box-scooty">
+      <div class="row-box-title scooty-box-title">
+        <p>Up to 50% off | Explore curated selection of new arrivals</p>
+        <a href="#">See all offers</a>
+      </div>
+      <div class="slidshow scooty-row newArrivals-row">
+        <!-- books sliderow goes here  -->
+      </div>
+    </div>
+  </main>
+
+  <!-- amajon footer section -->
+  <footer>
+   <div class="footer-box">
+      <div class="history">
+        <div class="first-text">
+          <p>Inspired by your browsing history</p>
+          <small>Page 1 of 3</small>
+        </div>
+        <div class="main-footer">
+            <i class="fa-solid fa-chevron-left history-left-arrow"></i>
+            <div class="footer-row-slide">
+              <div class="history-box">
+                <img src="Images/historyimg1.jpg" alt="">
+                <p id="first-para">Nextron NX-50TX Voltage Stabilizer for Refrigerators Single & Double Door Up to 30...</p>
+                <div class="history-star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <p>529</p>
+                </div>
+                <div class="history-offer">
+                  <p>29% Off</p>
+                  <small>Limited time deal</small>
+                </div>
+                <p id="price">&#8377;999.00</p>
+                <p id="date">Get it by <span>Wednesday, April 3</span></p>
+                <p id="mrp">M.R.P: <span>&#8377;1,400.00</span></p>
+                <p id="free">FREE Delivery by Amazon</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right history-right-arrow"></i>
+        </div>
+        <div class="sign-in">
+          <p>See personalized recommendations</p>
+          <button>Sign in</button>
+          <small>New customer? <span> Start here.</span></small>
+        </div>
+      </div>
+   </div>
+   <div class="second-footer-box">
+      <p id="back-to-top">Back to top</p>
+      <div class="col-text">
+        <div class="col-text-div">
+          <ul>
+            <li>Get to Know Us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+          </ul>
+        </div>
+        <div class="col-text-div">
+          <ul>
+            <li>Connect with Us</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+        <div class="col-text-div">
+          <ul>
+            <li>Make Money with Us</li>
+            <li>Sell on Amazon</li>
+            <li>Sell under Amazon Accelerator</li>
+            <li>Protect and Build  Your Brand</li>
+            <li>Amazon Global Selling</li>
+            <li>Become an Affiliate</li>
+            <li>Fulfilment by Amazon</li>
+            <li>Advertise Your Products</li>
+            <li>Amazon Pay on Merchants</li>
+          </ul>
+        </div>
+        <div class="col-text-div">
+          <ul>
+            <li>Let Us Help You</li>
+            <li>COVID-19 and Amazon</li>
+            <li>Your Account</li>
+            <li>Returns Center</li>
+            <li>100% Purchase Protection</li>
+            <li>Amazon App Download</li>
+            <li>Help</li>
+          </ul>
+        </div>
+      </div>
+      <div class="country-name">
+        <div class="amaz-logo">
+          <p><img src="Images/amazon-logo-text.png" alt=""></p>
+          <div class="global">
+            <i class="fa-solid fa-globe"></i>
+            <p>English</p>
+            <div class="carret-updown">
+              <i class="fa-solid fa-caret-up"></i>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="c-name">
+          <ul>
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>China</li>
+            <li>France</li>
+            <li>Germany</li>
+            <li>Italy</li>
+            <li>Japan</li>
+            <li>Mexico</li>
+            <li>Netherland</li>
+            <li>Poland</li>
+            <li>Singapore</li>
+            <li>Spain</li>
+            <li>Turkey</li>
+            <li>United Arab Emirates</li>
+            <li>United Kingdom</li>
+            <li>United States</li>
+          </ul>
+        </div>
+      </div>
+   </div>
+   <div class="last-footer-box">
+    <div class="last-list">
+      <div class="list-first-box">
+        <div class="list-box">
+          <ul>
+            <li>AbeBooks</li>
+            <li>Books,art</li>
+            <li>& collectibles</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>Amazon Web Services</li>
+            <li>Scalable Cloud</li>
+            <li>Computing Services</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>Audible</li>
+            <li>Download</li>
+            <li>Audio Books</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>IMDb</li>
+            <li>Movies, TV</li>
+            <li>& Celebrities</li>
+          </ul>
+        </div>
+      </div>
+      <div class="list-second-box">
+        <div class="list-box">
+          <ul>
+            <li>Shopbop</li>
+            <li>Designer</li>
+            <li>Fashion Brands</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>Amazon Business</li>
+            <li>Everything For</li>
+            <li>Your Business</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>Prime Now</li>
+            <li>2-Hour Delivery</li>
+            <li>on Everyday Items</li>
+          </ul>
+        </div>
+        <div class="list-box">
+          <ul>
+            <li>Amazon Prime Music</li>
+            <li>100 million song, ad-free</li>
+            <li>Over 15 million podcast episodes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="last-div">
+      <div class="privacy">
+        <ul>
+          <li>Conditions of Use & Sale</li>
+          <li>Privacy Notice</li>
+          <li>Interest-Based Ads</li>
+        </ul>
+      </div>
+      <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </div>
+   </div>
+  </footer>
+</body>
+</html>
